@@ -1,0 +1,17 @@
+# Ignore application.yml files
+**/src/main/resources/application.yml
+
+# Ignore target folders (Maven builds)
+**/target/
+
+# Ignore IDE files
+*.iml
+.idea/
+.vscode/
+
+# Ignore OS files
+.DS_Store
+
+# Logs
+*.log
+logs/
